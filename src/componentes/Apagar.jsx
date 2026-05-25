@@ -25,7 +25,7 @@ function Apagar() {
     }
   }
 
-  // Etapa 1 — digitar ID
+
   if (!filme && !naoEncontrado) {
     return (
       <div className="d-flex w-100 vh-100 justify-content-center align-items-center bg-light">
@@ -45,7 +45,7 @@ function Apagar() {
     )
   }
 
-  // Etapa 3 — não encontrado
+ 
   if (naoEncontrado) {
     return (
       <div className="d-flex w-100 vh-100 justify-content-center align-items-center bg-light">
@@ -60,7 +60,7 @@ function Apagar() {
     )
   }
 
-  // Etapa 2 — confirmar exclusão
+
   return (
     <div className="d-flex w-100 vh-100 justify-content-center align-items-center bg-light">
       <div className="w-50 border bg-white shadow px-5 pt-3 pb-5 rounded">
